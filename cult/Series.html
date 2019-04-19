@@ -1,0 +1,163 @@
+﻿<html>
+<head>
+
+    <title> SÉRIES </title>
+
+    <link rel="stylesheet" type="text/css" href="CSS/Central.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Filmes.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Series.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+
+</head>
+<body>
+
+    <div class="Introducao_Series">
+
+        <div class="Cabecalho" style="margin-bottom: 0%;">
+
+				<ul>
+					<li><a class="active" href="Central.html"><img src="IMG/CULT.png." height="50" width="140"></a></li>
+					<li class="other"><a href="Filmes.html"><span class="Titulo_Pag_Filmes"> FILMES </span></a></li>
+					<li class="other"><a href="Livros.html"><span class="Titulo_Pag_Filmes"> LIVROS </span></a></li>
+					<li class="other"><a href="Series.html"><span class="Titulo_Pag_Filmes"> SÉRIES </span></a></li>
+				</ul>
+						
+            </div><br>
+
+
+        <div class="Caixas_Series_Introducao">
+
+            <img class="mySlides" src="IMG/Primeira_Series.jpeg">
+            <img class="mySlides" src="IMG/Primeira_Series2.jpg">
+
+            <script>
+                var slideIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > x.length) { slideIndex = 1 }
+                    x[slideIndex - 1].style.display = "block";
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+
+            </script>
+
+            <div class="Texto_Series">
+                Escolha um filme e mergulhe nas críticas e reviws.
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="Conteudo">
+
+        <div class="float">
+            <span class="Alfabeto"> Pesquise por ordem alfabética: </span>
+
+            <hr>
+
+            <span class="Alfabeto">
+                <a href="#A"> A -</a>
+                <a href="#B"> B -</a>
+                <a href="#C"> C -</a>
+                <a href="#D"> D -</a>
+                <a href="#E"> E -</a>
+                <a href="#F"> F -</a>
+                <a href="#G"> G -</a>
+                <a href="#H"> H -</a>
+                <a href="#I"> I -</a>
+                <a href="#J"> J -</a>
+                <a href="#K"> K -</a>
+                <a href="#L"> L -</a>
+                <a href="#M"> M -</a>
+                <a href="#N"> N -</a>
+                <a href="#O"> O -</a>
+                <a href="#P"> P -</a>
+                <a href="#Q"> Q -</a>
+                <a href="#R"> R -</a>
+                <a href="#S"> S -</a>
+                <a href="#T"> T -</a>
+                <a href="#U"> U -</a>
+                <a href="#V"> V -</a>
+                <a href="#W"> W -</a>
+                <a href="#Y"> Y -</a>
+                <a href="#Z"> Z </a>
+            </span><br><br><br><br><br />
+
+
+            <span class="Titulo_Ordem"><a name="A"> A </a></span> <br><br> <hr> <br><br>
+
+            <div class="Caixas_Series" style="background-image: url(IMG/Arrow.jpg);">
+                <div class="Caixas_Subtitulo_Series"><span class="Texto_Caixas_Filmes"> ARROW </span></div>
+            </div><br><br><br><br>
+
+            <span class="Titulo_Ordem"><a name="F"> F </a></span> <br><br> <hr> <br><br>
+
+            <div class="Caixas_Series">
+                <div class="Caixas_Subtitulo_Series"><span class="Texto_Caixas_Series"> FILMES </span></div>
+            </div>
+
+            <div class="Caixas_Series">
+                <div class="Caixas_Subtitulo_Series"><span class="Texto_Caixas_Series"> FILMES </span></div>
+            </div>
+
+            <div class="Caixas_Series">
+                <div class="Caixas_Subtitulo_Series"><span class="Texto_Caixas_Series"> FILMES </span></div>
+            </div>
+
+            <div class="Caixas_Series">
+                <div class="Caixas_Subtitulo_Series"><span class="Texto_Caixas_Series"> FILMES </span></div>
+            </div>
+
+            <div class="Caixas_Series">
+                <div class="Caixas_Subtitulo_Series"><span class="Texto_Caixas_Series"> FILMES </span></div>
+            </div>
+
+            <div class="Caixas_Series">
+                <div class="Caixas_Subtitulo_Series"><span class="Texto_Caixas_Series"> FILMES </span></div>
+            </div>
+
+            <div class="Caixas_Series">
+                <div class="Caixas_Subtitulo_Series"><span class="Texto_Caixas_Series"> FILMES </span></div>
+            </div><br><br>
+
+
+        </div>
+    </div>
+
+    <div id="Rodape">
+
+        <div id="Rod-Cont1">
+
+            <p class="TextoRod">
+                &copy; Copyright 2018 Todos os Direitos Reservados.
+            </p>
+
+            <p class="TextoRod SobreRod">
+                Sobre esse Site
+            </p>
+
+        </div>
+
+        <div id="Rod-Cont2">
+		
+			<img src="IMG/FRS.png" height="75" width="150">
+
+            <p class="TextoRod">
+                Contato: felipe@frsoares.com
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

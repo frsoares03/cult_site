@@ -1,0 +1,98 @@
+﻿
+/* /////////////////  GERAL  /////////////// */
+
+body {
+    margin: 0;
+}
+
+.Criticas_IMG {
+	width:20%;
+	height:auto;
+	float:left;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 5px;
+	border-color: #610B0B;
+	margin-right:3%;
+	margin-bottom:2%;
+}
+
+p.p {
+	text-indent: 2em;
+	margin-top: 10px;
+	margin-left:15%;
+	margin-right:30%;
+	border-right: solid;
+	border-radius: 5px;;
+	border-width: 5px;
+	border-color: #610B0B;
+	padding-right:2%;
+	padding-left:2%;
+}
+
+p {
+	text-indent: 1em;
+	margin-top: 10px;
+	margin-left:15%;
+}
+
+/* /////////////// DIVIÕES /////////////// */
+
+.Introducao_Critica {
+    background-color: #1C1C1C;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    border-bottom: solid;
+    border-width: 10px;
+    border-color: #610B0B;
+}
+
+.Resumo {
+	padding-left: 15%;
+	margin-top:3%;
+	margin-bottom:5%;
+}
+
+.Conteudo_Critica {
+    width: 100%;
+	background-color: #FFFFFF;	
+	text-align:justify;
+	margin-top:2%;
+}
+
+/* /////////////// TEXTOS /////////////// */
+
+span.Nome_Obra {
+	font-family: 'Antic';
+	font-weight: bold;
+	font-size: 32pt;
+	color: #FFFFFF;
+}
+
+span.Informacoes {
+	font-family: 'Antic';
+	font-size: 18pt;
+	color: #FFFFFF;
+}
+
+span.Texto_Critica {
+    font-family: 'Gothic A1';
+    font-size: 18pt;
+    color: #000000;
+}
+
+.Autoria_Critica {
+	font-family: 'Antic';
+	font-size: 20pt;
+	color: #000000;
+	border-left: solid;
+	border-bottom: solid;
+	border-width: 5px;
+	border-color: #0B2161;
+	font-weight: bold;
+	margin-left:12%;
+	margin-bottom:15%;
+	padding:2%;
+}
